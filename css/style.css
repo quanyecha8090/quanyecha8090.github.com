@@ -71,7 +71,7 @@ img{border:0 none; vertical-align:top;}
 .zt_replyRight{float:left; background:none; border:0 none; font-size:0.8rem; color:#000; margin-left:0.5rem; width:2.4rem; height:1.675rem;}
 
 /*照片详情页*/
-.xq_hd{position:fixed; left:0; top:0; width:100%; height:2.2rem; background:rgba(0,0,0,1);}
+.xq_hd{position:fixed; left:0; top:0; width:100%; height:2.2rem; background:rgba(0,0,0,1); z-index:10;}
 .xq_hd .hd_left{float:left; width:2.2rem; height:2.2rem; background:url(../images/xq_1.png) no-repeat center center; background-size:2.2rem 2.2rem;}
 .xq_hd .hd_right{float:right; width:2.2rem; height:2.2rem; background:url(../images/xq_2.png) no-repeat center center; background-size:2.2rem 2.2rem;}
 .xq_con{width:100%; position:relative; overflow:hidden;}
