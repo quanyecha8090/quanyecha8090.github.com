@@ -12,7 +12,7 @@ img{border:0 none; vertical-align:top;}
 /*专题报道*/
 .wrap{width:100%;}
 .hdMain{position:relative; height:17.725rem;}
-.zt_hd{position:absolute; top:0; left:0; width:100%; background:rgba(255,255,255,0.5); height:2.2rem; z-index:3;}
+.zt_hd{position:fixed; top:0; left:0; width:100%; background:rgba(255,255,255,0.5); height:2.2rem; z-index:3;}
 .zt_hd .hd_left{float:left; width:2.2rem; height:2.2rem; background:url(../images/back.png) no-repeat center center; background-size:2.2rem 2.2rem;}
 .zt_hd .hd_right{float:right; width:2.2rem; height:2.2rem; background:url(../images/nav_share.png) no-repeat center center; background-size:2.2rem 2.2rem;}
 .hdMain img{position:absolute; left:0; top:0; width:100%; height:17.725rem;}
@@ -71,7 +71,7 @@ img{border:0 none; vertical-align:top;}
 .zt_replyRight{float:left; background:none; border:0 none; font-size:0.8rem; color:#000; margin-left:0.5rem; width:2.4rem; height:1.675rem;}
 
 /*照片详情页*/
-.xq_hd{width:100%; height:2.2rem; background:rgba(0,0,0,1);}
+.xq_hd{position:fixed; left:0; top:0; width:100%; height:2.2rem; background:rgba(0,0,0,1);}
 .xq_hd .hd_left{float:left; width:2.2rem; height:2.2rem; background:url(../images/xq_1.png) no-repeat center center; background-size:2.2rem 2.2rem;}
 .xq_hd .hd_right{float:right; width:2.2rem; height:2.2rem; background:url(../images/xq_2.png) no-repeat center center; background-size:2.2rem 2.2rem;}
 .xq_con{width:100%; position:relative; overflow:hidden;}
