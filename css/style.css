@@ -89,9 +89,7 @@ img{border:0 none; vertical-align:top;}
 .zt_footFix.xq_blackBg .zt_footFixUl li.zt_fixOne input{background:#333; color:#fff;}
 
 /*弹窗*/
-.popWin{position:absolute; left:0; top:0; z-index:900; width:100%; height:100%;}
-.popWin .popMask{position:absolute; width:100%; height:100%; background:rgba(0,0,0,0.4);}
-.popCon{position:relative; width:15.25rem; height:10.6rem; background:#fff; border-radius:0.5rem; z-index:999; margin:0 auto; top:9.25rem;}
+.popCon{position:fixed; left:0; top:0; width:15.25rem; height:10.6rem; background:#fff; border-radius:0.5rem; z-index:9999;}
 .popCon .popClose{position:absolute; right:-0.15rem; top:-0.4rem; width:1.275rem; height:1.275rem; background:url(../images/pop_close.png) no-repeat 0 0; background-size:1.275rem 1.275rem;}
 .popCon .popBrand{position:absolute; left:0; top:0.7rem; width:3.1rem; height:1.1rem; line-height:1.1rem; border-radius:0 0.6rem 0.6rem 0; text-align:center; color:#fff; font-size:0.75rem; background:#ff5e5e;}
 .popCon .popBrandName{width:100%; height:2.425rem; line-height:2.425rem; text-align:center; overflow:hidden; color:#4e4e4e; font-size:1.97rem; padding-top:1.4rem;}
@@ -102,16 +100,16 @@ img{border:0 none; vertical-align:top;}
 .popTips{width:12.5rem; padding-left:2.5rem; height:1.1rem; line-height:1.1rem; color:#666; font-size:0.6rem; background:url(../images/pop_1.png) no-repeat 1.4rem center; background-size:0.75rem 0.675rem; margin-top:0.8rem;}
 
 /*分享*/
-.zt_shareCon{width:100%; height:13.275rem; position:fixed; left:0; bottom:0; background:rgba(255,255,255,0.8); z-index:10;}
+.zt_shareCon{width:100%; height:0/*13.275rem*/; position:fixed; left:0; bottom:0; background:rgba(255,255,255,0.8); z-index:9999; transition:1s all ease; -moz-transition:1s all ease; -o-transition:1s all ease; -webkit-transition:1s all ease;}
 .zt_shareConHd{position:relative; width:100%; text-align:center; height:2.575rem; line-height:2.575rem; border-bottom:1px solid #bdbdbd; font-size:0.9rem; color:#000;}
 .zt_shareConHd span{position:absolute; right:0; top:0; width:2.575rem; height:2.575rem; background:url(../images/share_close.png) no-repeat center center; background-size:0.75rem 0.75rem;}
 .zt_shareUl{width:100%; padding-top:0.675rem;}
 .zt_shareUl li{float:left; width:25%; text-align:center; margin-top:0.5rem;}
 .zt_shareUl li img{width:2.85rem; height:2.85rem;}
 .zt_shareUl li p{width:100%; height:1.3rem; line-height:1.3rem; text-align:center; color:#333; font-size:0.65rem;}
-
+.mask{width:100%; height:100%; position:fixed; left:0; bottom:0; background:rgba(0,0,0,0.5); transition:1s all ease; -moz-transition:1s all ease; -o-transition:1s all ease; -webkit-transition:1s all ease; z-index:1000;}
 /*签到*/
-.popSign{width:12.5rem; position:relative; z-index:999; margin:0 auto; background:#fff; border-radius:0.5rem; top:7rem; padding:0 0 0.775rem 0;}
+.popSign{width:12.5rem; position:fixed; left:0; top:0; z-index:9999; background:#fff; border-radius:0.5rem; padding:0 0 0.775rem 0;}
 .popSign .popClose{position:absolute; right:-0.15rem; top:-0.4rem; width:1.275rem; height:1.275rem; background:url(../images/pop_close.png) no-repeat 0 0; background-size:1.275rem 1.275rem;}
 .popSignTop{width:100%; background:url(../images/pop_2.png) no-repeat center 0.375rem #39ded6; background-size:8.375rem 2.45rem; border-radius:0.5rem 0.5rem 0 0; padding-top:3rem;}
 .popSignTopOne{width:100%;height:1.775rem; line-height:1.775rem; color:#fff; font-size:1.05rem; text-align:center; background:url(../images/pop_5.png) no-repeat center center; background-size:10.225rem 1.775rem; }
