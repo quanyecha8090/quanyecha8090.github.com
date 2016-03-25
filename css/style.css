@@ -125,7 +125,7 @@ img{border:0 none; vertical-align:top;}
 .popTodayTask{width:10.75rem; margin:0 auto; padding:0.5rem 0 0 0;}
 .popTodayTask h3{font-size:0.75rem; color:#333; height:1.25rem; line-height:1.25rem;}
 .popTaskList{width:100%; overflow:hidden;}
-.popTaskList li{float:left; width:100%; height:1.35rem; line-height:1.35rem; font-size:0.6rem; border:2px solid #e2e2e2; border-radius:3px; box-sizing:border-box; margin-top:0.25rem; padding:0 0.3rem;}
+.popTaskList li{float:left; width:100%; height:1.35rem; line-height:1.35rem; font-size:0.6rem; border:1px solid #e2e2e2; border-radius:3px; box-sizing:border-box; margin-top:0.25rem; padding:0 0.3rem;}
 .popTaskFriend{float:left; padding-left:1.45rem; background:url(../images/pop_4.png) no-repeat left center; background-size:0.75rem 0.75rem;}
 .popTaskShare{float:left; padding-left:1.45rem; background:url(../images/pop_3.png) no-repeat left center; background-size:0.75rem 0.75rem;}
 .popTaskList li span{float:right;}
