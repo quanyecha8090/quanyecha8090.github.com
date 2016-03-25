@@ -74,8 +74,8 @@ function winSign(){
 	oWrap.append(oClose);
 	oWrap.append(oTop);
 	oWrap.append(oInfo);
+	oTaskWrap.append(oTask);
 	oWrap.append(oTaskWrap);
-	oWrap.append(oTask);
 	oWrap.append(oMoreBtn);
 	oBody.append(oMask);
 	oBody.append(oWrap);
